@@ -1,22 +1,22 @@
 public class Author {
-    private String nameOfAuthor;
-    private String surnameOfAuthor;
+    private String name;
+    private String surname;
 
-    public Author(String nameOfAuthor, String surnameOfAuthor) {
-        this.nameOfAuthor = nameOfAuthor;
-        this.surnameOfAuthor = surnameOfAuthor;
+    public Author(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
     }
 
-    public String getNameOfAuthor() {
-        return this.nameOfAuthor;
+    public String getName() {
+        return this.name;
     }
 
-    public String getSurnameOfAuthor() {
-        return this.surnameOfAuthor;
+    public String getSurname() {
+        return this.surname;
     }
     @Override
     public String toString() {
-        return ". Автор: " + this.nameOfAuthor + " " + this.surnameOfAuthor;
+        return ". Автор: " + this.name + " " + this.surname;
     }
 }
 

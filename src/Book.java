@@ -11,10 +11,10 @@ public class Book {
     public String getName() {
         return this.name;
     }
-    public int getyearOfEdition() {
+    public int getYearOfEdition() {
         return this.yearOfEdition;
     }
-    public void setyearOfEdition(int yearOfEdition) {
+    public void setYearOfEdition(int yearOfEdition) {
         this.yearOfEdition = yearOfEdition;
     }
     public Author getAuthor (){
